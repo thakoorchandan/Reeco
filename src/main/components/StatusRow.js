@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FaGulp, FaViadeo, FaAppleAlt, FaBacon, FaCannabis, FaDisease, FaFish, FaGlassCheers } from "react-icons/fa";
 import {  FontWeight, Text } from "styled-typography";
 
 function StatusRow() {
@@ -64,7 +65,34 @@ function StatusRow() {
             Category
           </Text>
           <Text level={2} fontWeight={FontWeight.Bold} lineHeight={1.3}>
-            East cost fruits & vegetables
+          <FaGulp />
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <FaViadeo />
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <FaAppleAlt />
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <FaBacon />
+          </Text>
+          <Text level={2} fontWeight={FontWeight.Bold} lineHeight={1.3}>
+          <FaCannabis />
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <FaDisease />
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <FaFish />
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <FaGlassCheers />
           </Text>
         </StatusListItem>
         <StatusListItem>
@@ -81,14 +109,6 @@ function StatusRow() {
           </Text>
           <Text level={2} fontWeight={FontWeight.Bold} lineHeight={1.3}>
             Awaiting your approval
-          </Text>
-        </StatusListItem>
-        <StatusListItem>
-          <Text level={1} fontWeight={FontWeight.Light} lineHeight={1.3}>
-            Supplier
-          </Text>
-          <Text level={2} fontWeight={FontWeight.Bold} lineHeight={1.3}>
-            East cost fruits & vegetables
           </Text>
         </StatusListItem>
       </StatusList>
